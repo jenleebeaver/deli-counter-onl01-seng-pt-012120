@@ -10,9 +10,9 @@ def line(deli)
     deli.each_with_index do | name, i |
       str = "#{i+1}. #{name} "
       new_array.push(str)
-      new_array.join(' ')
+      
     end
-    puts "The line is currently: #{new_array}"
+    puts "The line is currently: #{new_array.join(' ')}"
   #if another_deli
     #puts "The line is currently: #{another_deli}"
   else
