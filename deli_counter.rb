@@ -8,9 +8,9 @@ def line(deli)
     new_array = []
   if deli.length === 3
     deli.each_with_index do | name, i |
-    str = "#{i+1}. #{name} "
-    new_array.push(str)
-    new_array.join(' ')
+      str = "#{i+1}. #{name} "
+      new_array.push(str)
+      new_array.join(' ')
     end
     puts "The line is currently: #{str}"
   #if another_deli
