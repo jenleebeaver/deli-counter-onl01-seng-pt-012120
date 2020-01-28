@@ -23,4 +23,5 @@ def now_serving(deli)
   if deli.length > 0 
   puts "Currently serving #{deli[0]}."
 else
+  puts "There is nobody waiting to be served!"
 end
