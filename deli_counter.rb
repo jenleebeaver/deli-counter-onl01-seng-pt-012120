@@ -9,8 +9,8 @@ def line(deli)
     str = ''
     deli.each_with_index do | name, i |
     str += "#{i+1}. #{name} "
-    str.push(array)
-    array.join
+    new_array = str.push
+    new_array.join
     end
     puts "The line is currently: #{str}"
   #if another_deli
