@@ -5,7 +5,7 @@ another_deli = []
 
 def line(deli)
     #puts "The line is currently empty."
-  if other_deli.length
+  if deli.length === 3
     puts "The line is currently: #{other_deli}"
   #if another_deli
     #puts "The line is currently: #{another_deli}"
