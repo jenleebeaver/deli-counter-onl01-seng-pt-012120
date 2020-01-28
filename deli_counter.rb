@@ -8,7 +8,7 @@ def line(deli)
     new_array = []
   if deli.length === 3
     deli.each_with_index do | name, i |
-      str = "#{i+1}. #{name} "
+      str = "#{i+1}. #{name}"
       new_array.push(str)
     end
     puts "The line is currently: #{new_array.join('')}"
