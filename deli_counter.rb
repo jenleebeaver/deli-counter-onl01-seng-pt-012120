@@ -1,7 +1,4 @@
 # Write your code here.
-katz_deli = []
-other_deli = []
-another_deli = []
 
 def line(deli)
   lines = []
