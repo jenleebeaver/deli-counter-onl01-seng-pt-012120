@@ -10,7 +10,7 @@ def line(deli)
     deli.each_with_index do | name, i |
       str += "#{i}. #{name}"
     end
-    
+
     puts "The line is currently: #{str}"
   #if another_deli
     #puts "The line is currently: #{another_deli}"
