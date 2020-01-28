@@ -3,7 +3,7 @@ katz_deli = []
 other_deli = []
 another_deli = []
 
-def line(katz_deli)
+def line(deli)
     #puts "The line is currently empty."
   if other_deli.length
     puts "The line is currently: #{other_deli}"
