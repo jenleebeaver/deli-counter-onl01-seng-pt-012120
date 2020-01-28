@@ -14,9 +14,10 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
-  if deli.length > 1
-    deli.each_with_index do | name, i |
-      puts "Welcome #{name}.  You are number #{i + 1} in line."
-    end
-  end
+  deli.push(name).length
+  #if deli.length > 1
+    #deli.each_with_index do | name, i |
+      #puts "Welcome #{name}.  You are number #{i + 1} in line."
+    #end
+  #end
 end
