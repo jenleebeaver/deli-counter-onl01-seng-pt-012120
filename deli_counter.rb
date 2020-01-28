@@ -15,7 +15,7 @@ end
 
 def take_a_number(deli, name)
   line_num = deli.push(name).length
-  puts "Welcome #{name}. You are number #{line_num} in line."
+  puts "Welcome, #{name}. You are number #{line_num} in line."
   #if deli.length > 1
     #deli.each_with_index do | name, i |
       #puts "Welcome #{name}.  You are number #{i + 1} in line."
