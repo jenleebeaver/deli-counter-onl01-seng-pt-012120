@@ -12,7 +12,7 @@ def line(deli)
       new_array.push(str)
       new_array.join(' ')
     end
-    #puts "The line is currently: #{str}"
+    puts "The line is currently: #{new_array}"
   #if another_deli
     #puts "The line is currently: #{another_deli}"
   else
