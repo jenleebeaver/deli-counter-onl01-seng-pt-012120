@@ -20,5 +20,5 @@ end
 
 def now_serving(deli, name)
   #line = deli.shift(name)
-  puts "Currently serving #{name}."
+  puts "Currently serving #{deli}."
 end
