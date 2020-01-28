@@ -19,4 +19,6 @@ def take_a_number(deli, name)
 end
 
 def now_serving(deli, name)
+  line = deli.shift(name)
+  puts "Currently serving #{line}."
 end
