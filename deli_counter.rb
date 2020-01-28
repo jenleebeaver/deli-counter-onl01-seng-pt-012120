@@ -11,7 +11,7 @@ def line(deli)
     deli.each_with_index do | name, i |
     str = "#{i+1}. #{name} "
     new_array.push(str)
-    new_array.join
+    new_array.join(' ')
     end
     puts "The line is currently: #{str}"
   #if another_deli
