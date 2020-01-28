@@ -4,7 +4,7 @@ other_deli = []
 another_deli = []
 
 def line(deli)
-    lines = []
+  lines = []
   if deli.length > 1
     deli.each_with_index do | name, i |
       str = "#{i+1}. #{name}"
