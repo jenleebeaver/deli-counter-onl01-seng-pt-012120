@@ -9,7 +9,7 @@ def line(deli)
     str = ''
     deli.each_with_index do | name, i |
     str += "#{i+1}. #{name} "
-    new_array = str.push
+    new_array = [str.push]
     new_array.join
     end
     puts "The line is currently: #{str}"
