@@ -10,7 +10,6 @@ def line(deli)
     deli.each_with_index do | name, i |
       str = "#{i+1}. #{name} "
       new_array.push(str)
-      
     end
     puts "The line is currently: #{new_array.join(' ')}"
   #if another_deli
