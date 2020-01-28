@@ -14,4 +14,5 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
+  return "#{name}"
 end
