@@ -13,6 +13,8 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, name)
-  return "#{name}"
+def take_a_number(deli)
+  if deli.length > 1
+    deli.each_with_index do | name, i |
+  puts "#{name}"
 end
