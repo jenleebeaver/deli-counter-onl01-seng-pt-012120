@@ -18,7 +18,7 @@ def take_a_number(deli, name)
   puts "Welcome, #{name}. You are number #{line_num} in line."
 end
 
-def now_serving(deli, name)
+def now_serving(deli)
   #line = deli.shift(name)
   puts "Currently serving #{deli[0]}."
 end
