@@ -8,7 +8,7 @@ def line(deli)
   if deli.length === 3
     str = ''
     deli.each_with_index do | name, i |
-      str += "#{i+1}. #{name}"
+      str += "#{i+1}. #{name} "
     end
 
     puts "The line is currently: #{str}"
